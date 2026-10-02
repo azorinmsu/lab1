@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:lab1;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+    open-in-view: false
+  sql:
+    init:
+      mode: always
+
+sms:
+  endpoint: http://localhost:8080/api/sms/confirm

@@ -1,0 +1,24 @@
+# Maven
+/target/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+# Java
+*.class
+hs_err_pid*
+
+# Local configuration
+.env
+.env.*
+.mvn-central-settings.xml
+
+# Logs
+*.log
+
+# Operating systems
+.DS_Store
+Thumbs.db
